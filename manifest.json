@@ -1,0 +1,18 @@
+{
+    "name": "Work Timer",
+    "description": "Set Timer or Chono for your work session",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16":"icons/sandclock-16.png",
+        "24":"icons/sandclock-24.png",
+        "32":"icons/sandclock-32.png",
+        "64":"icons/sandclock-64.png",
+        "128":"icons/sandclock-128.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [],
+    "background":{}
+}
