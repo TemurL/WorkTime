@@ -16,6 +16,15 @@ h1 {
     color: rgb(41, 41, 41);
 }
 
+h1 img {
+    vertical-align:bottom;
+    width: 24px;
+    aspect-ratio: 1;
+    margin-inline-end: 10px;
+    position: relative;
+    top: -2px;
+}
+
 button {
     font-family: 'Ubuntu', sans-serif;
     width: 100%;
