@@ -3,6 +3,7 @@
 
 html {
     font-family: 'Ubuntu', sans-serif;
+    background-color: transparent;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 }
 
 h1 {
+    text-align: center;
     min-width: max-content;
     color: rgb(41, 41, 41);
 }
@@ -27,10 +29,16 @@ button {
     letter-spacing: 2px;
     transition: 0.3s;
     cursor: pointer;
-    margin: 0.5rem;
+    margin-block: 0.5rem;
 }
 
 button:hover {
     background-color: #1b4c5f;
     letter-spacing: 3.5px;
+}
+
+.timeNow {
+    text-align: center;
+    font-size: 1.3rem;
+    min-width: max-content;
 }
